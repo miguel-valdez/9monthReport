@@ -1,12 +1,12 @@
 @book{DuOzRM,
-author = "David J. Dunlop and Özden Özdemir",
+author = "David J. Dunlop and \''{O}zden \''{O}zdemir",
 title = "Rock Magnetism",
 publisher = "Cambridge University Press",
 address = "Cambridge",
 year = "1997",
 }
 
-@article{Suess1,
+@article{Suess,
 author = "D. Suess and V. Tsiantos and T. Schrefl and J. Fidler and W. Scholz and H. Forster and R. Dittrich and J. J. Miles",
 title = "Time resolved micromagnetics using a preconditioned time integration method",
 journal = "Journal of magnetism and magnetic materials",
@@ -15,8 +15,8 @@ pages = "298--311",
 year = "2002",
 }
 
-@article{Imhoff1,
-author = "J. F. Imhoff and G. Meunler and X. Brunotte and J. C. Sabonnadière",
+@article{Imhoff,
+author = "J. F. Imhoff and G. Meunler and X. Brunotte and J. C. Sabonnadi\`{e}re",
 title = "An original solution for unbounded electromagnetic 2{D}- and 3{D}-problemas throughout the finite element method",
 journal = "IEEE Transactions on Magnetics",
 volume = "26",
@@ -25,8 +25,8 @@ pages = "1659--1661",
 year = "1990",
 }
 
-@article{Abert1,
-author = "Claas Abert and Lukas Exl and Florian Bruckner and André Drews and Dieter Suess",
+@article{Abert,
+author = "Claas Abert and Lukas Exl and Florian Bruckner and Andr\'{e} Drews and Dieter Suess",
 title = "magnum.fe: {A} micromagnetic finite-element simulation code based on {FE}ni{CS}",
 journal = "Journal of Magnetism and Magnetic Materials",
 volume = "345",
@@ -35,7 +35,7 @@ year = "2013",
 }
 
 @article{Mxwt1,
-author = "Adrian R. Muxworthy and Wyn Williams and Andrew P. Roberts and Michael Winklhofer and Liao chang and Mihály Pósfai",
+author = "Adrian R. Muxworthy and Wyn Williams and Andrew P. Roberts and Michael Winklhofer and Liao chang and Mih\'{a}ly P\'{o}sfai",
 title = "Critical single domain grain sizes in chains of interacting greigite particles: {I}mplications for magnetosome crystals",
 journal = "Geochem. Geophys. Geosyst.",
 volume = "14",
@@ -54,8 +54,8 @@ pages = "2517",
 year = "2003",
 }
 
-@article{WynW1,
-author = "W. Williams and M. E. Evans and D. Krása",
+@article{Wyn1,
+author = "W. Williams and M. E. Evans and D. Kr\'{a}sa",
 title = "Micromagnetics of paleomagnetically significant mineral grains with complex morphology",
 journal = "Geochem. Geophys. Geosyst.",
 volume = "11",
@@ -63,7 +63,7 @@ number = "2",
 year = "2010",
 }
 
-@article{Fab1,
+@article{Fabian,
 author = "Karl Fabian and Andreas Kirchner and Wyn Williams and Franz Heider and Thomas Leibl and Alex Huber",
 title = "Three-dimensional micromagnetic calculations for magnetite using {FFT}",
 journal = "Geophys. J. Int.",
@@ -72,7 +72,7 @@ pages = "89--104",
 year = "1996",
 }
 
-@article{WynW2,
+@article{Wyn2,
 author = "Wyn Williams and David J. Dunlop",
 title = "Three-dimensional micromagnetic modelling of ferromagnetic domain structure",
 journal = "Nature",
@@ -81,7 +81,7 @@ pages = "634--637",
 year = "1989",
 }
 
-@article{Wright1,
+@article{Wright,
 author = "T. M. Wright and W. Williams and D. J. Dunlop",
 title = "An improved algorith for micromagnetics",
 journal = "J. Geophys. Res.",
@@ -92,7 +92,7 @@ year = "1997",
 }
 
 @book{Kron,
-author = "Helmut Kronmüller and Manfred Fähnle",
+author = "Helmut Kronm\''{u}ller and Manfred F\''{a}hnle",
 title = "Micromagnetism and the Microstructure of Ferromagnetic Solids",
 publisher = "Cambridge University Press",
 address = "Cambridge",
@@ -113,4 +113,159 @@ title = "Automated Solutions of Differential Equations by the Finite Element Met
 publisher = "Springer",
 address = "Berlin",
 year = "2012",
+}
+
+@article{Aldana,
+author = "M. Aldana and V. Constanzo-Alvarez and D. Vitiello and L. Colmenares and G. G\'{o}mez",
+title = "Framboidal magnetic minerals and their possible association to hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela",
+journal = "Geof\'{i}s. Int.",
+volume = "38",
+number = "3",
+pages = "137--152",
+year = "1999",
+}
+
+@inproceedings{Reynolds,
+author = "Richard L. Reynolds and Martin B. Goldhaber and Michele L. Tuttle",
+title = "Sulfidization and magnetization above hydrocarbon reservoirs",
+booktitle = "Applications of Paleomagnetism to Sedimentary Geology",
+editor = "Djafar M. A\''{i}ssaoui and Donald F. McNeill and Neil F. Hurley",
+series = "SEPM Special Publication",
+number = "49",
+pages = "167--179",
+address	= "Tulsa, Oklahoma, U.S.A.",
+organization = "SEPM (Society for Sedimentary Geology)",
+publisher = "SEPM (Society for Sedimentary Geology)",
+year = "1993",
+month = "September",
+}
+
+@inproceedings{Elmore,
+author = "R. Douglas Elmore and Scott W. Imbus and Mike H. Engel and David Fruit",
+title = "Hydrocarbons and magnetizations in magnetite",
+booktitle = "Applications of Paleomagnetism to Sedimentary Geology",
+editor = "Djafar M. A\''{i}ssaoui and Donald F. McNeill and Neil F. Hurley",
+series = "SEPM Special Publication",
+number = "49",
+pages = "181--191",
+address	= "Tulsa, Oklahoma, U.S.A.",
+organization = "SEPM (Society for Sedimentary Geology)",
+publisher = "SEPM (Society for Sedimentary Geology)",
+year = "1993",
+month = "September",
+}
+
+@inproceedings{Burton,
+author = "Elizabeth A. Burton and Hans G. Machel and Jun Qi",
+title = "Thermodynamics constraints on anomalous magnetization in shallow and deep hydrocarbon seepage environments",
+booktitle = "Applications of Paleomagnetism to Sedimentary Geology",
+editor = "Djafar M. A\''{i}ssaoui and Donald F. McNeill and Neil F. Hurley",
+series = "SEPM Special Publication",
+number = "49",
+pages = "193--207",
+address	= "Tulsa, Oklahoma, U.S.A.",
+organization = "SEPM (Society for Sedimentary Geology)",
+publisher = "SEPM (Society for Sedimentary Geology)",
+year = "1993",
+month = "September",
+}
+
+@phdthesis{Chang,
+author = "Liao Chang",
+title = "Fundamental magnetic properties of {G}reigite ($\text{Fe}_{3}\text{S}_4$)",
+school = "University of Southampton",
+year = "2009",
+}
+
+@phdthesis{Emmerton,
+author = "Stacey Anne Emmerton",
+title = "Investigating the relationship between magnetisation and oil geochemistry",
+school = "Imperial College London",
+year = "2013",
+}
+
+@article{Landau,
+author = "L. Landau and E. Lifshits",
+title = "On the theory of the dispersion of magnetic permeability in ferromagnetic bodies",
+journal = "Phys. Z. Sowjetunion",
+volume = "8",
+number = "53",
+year = "1935",
+}
+
+@article{Brown,
+author = "W. F. Brown, Jr.",
+title = "Theory of the approach to magnetic saturation",
+journal = "Phys. Rev.",
+volume = "58",
+number = "736",
+pages = "736--743",
+year = "1940",
+}
+
+@article{Machel,
+author = "H. G. Machel and E. A. Burton",
+title = "Chemical and microbial processes causing anomalous magnetization in environments affected by hydrocarbon seepage",
+journal = "Geophysics",
+volume = "56",
+number = "5",
+pages = "598--605",
+year = "1991",
+}
+
+@article{Donovan,
+author = "Terrence J. Donovan and Randal L. Forgey and Alan A. Roberts",
+title = "Aeromagnetic detection of diagenetic magnetite over oil fields",
+journal = "Geologic Notes",
+volume = "63",
+number = "2",
+pages = "245--248",
+year = "1979",
+}
+
+@article{Costanzo,
+author = "Vincenzo Costanzo-Alvarez and Milagrosa Aldana and Marisel D\'{i}az and Germ\'{a}n Bayona and Carolina Ayala",
+title = "Hydrocarbon-induced magnetic contrasts in some Venezuelan and Colombian oil wells",
+journal = "Earth Planets Space",
+volume = "58",
+pages = "1401--1410",
+year = "2006",
+}
+
+@article{Liu,
+author = "Qingsheng Liu and Qingsong Liu and Lungsang Chan and Tao Yang and Xianghua Xia and Tongjin Cheng",
+title = "Magnetic enhancement caused by hydrocarbon migration in the
+{M}awangmiao Oil Field, {J}ianghan Basin, {C}hina",
+journal = "Journal of Petroleum Science and Engineering",
+volume = "53",
+pages = "25--33",
+year = "2006",
+}
+
+@article{Diaz,
+author = "M. D\'{i}az and M. Aldana and V. Constanzo-Alvarez and P. Silva and A. P\'{e}rez",
+title = "E{PR} and magnetic susceptibility studies in well samples from some {V}enezuelan oild fields",
+journal = "Phys. Chem. Earth (A)",
+volume = "25",
+number = "5",
+pages = "447--453",
+year = "2000",
+}
+
+@article{Gonzalez,
+author = "F. Gonz\'{a}lez and M. Aldana and V. Constanzo-\'{A}lvarez and M. D\'{i}az and I. Romero",
+title = "An integrated rock magnetic and {EPR} study in soil samples from a hydrocarbon prospective area",
+journal = "Phys. Chem. Earth",
+volume = "27",
+pages = "1311--1317",
+year = "2002",
+}
+
+@article{Guzman,
+author = "Oswaldo Guzm\'{a}n and Vincenzo Costanzo-\'{A}lvarez and Milagrosa Aldana and Marisel D\'{i}az",
+title = "Study of magnetic constrasts applied to hydrocarbon exploration in the {M}atur\'{i}n sub-basin (eastern {V}enezuela)",
+journal = "Stud. Geophys. Geod.",
+volume = "55",
+pages = "359--376",
+year = "2011",
 }
