@@ -1,5 +1,26 @@
 \begin{thebibliography}{}
 
+\bibitem[Aldana et~al., 1999]{Aldana}
+Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., and G\'{o}mez,
+  G. (1999).
+\newblock Framboidal magnetic minerals and their possible association to
+  hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
+\newblock {\em Geof\'{i}s. Int.}, 38(3):137--152.
+
+\bibitem[Chang et~al., 2008]{Chang}
+Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., and Muxworthy, A.~R.
+  (2008).
+\newblock Fundamental magnetic parameters from pure synthetic greigite
+  ($\text{Fe}_3 \text{S}_4$).
+\newblock {\em J. Geophys. Res.}, 113(B06104).
+
+\bibitem[Costanzo-Alvarez et~al., 2006]{Costanzo}
+Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., Bayona, G., and Ayala, C.
+  (2006).
+\newblock Hydrocarbon-induced magnetic contrasts in some venezuelan and
+  colombian oil wells.
+\newblock {\em Earth Planets Space}, 58:1401--1410.
+
 \bibitem[D\'{i}az et~al., 2000]{Diaz}
 D\'{i}az, M., Aldana, M., Constanzo-Alvarez, V., Silva, P., and P\'{e}rez, A.
   (2000).
@@ -12,16 +33,73 @@ Donovan, T.~J., Forgey, R.~L., and Roberts, A.~A. (1979).
 \newblock Aeromagnetic detection of diagenetic magnetite over oil fields.
 \newblock {\em Geologic Notes}, 63(2):245--248.
 
+\bibitem[Donovan et~al., 1984]{Donovan2}
+Donovan, T.~J., Hendricks, J.~D., Roberts, A.~A., and Eliason, P.~T. (1984).
+\newblock Low-altitude aeromagnetic reconaissance for petroleum in the {A}rctic
+  {N}ational {W}ildlife {R}efuge, {A}laska.
+\newblock {\em Geophysics}, 49(8):1338--1353.
+
+\bibitem[Elmore et~al., 1993]{Elmore}
+Elmore, R.~D., Imbus, S.~W., Engel, M.~H., and Fruit, D. (1993).
+\newblock Hydrocarbons and magnetizations in magnetite.
+\newblock In A\''{i}ssaoui, D.~M., McNeill, D.~F., and Hurley, N.~F., editors,
+  {\em Applications of Paleomagnetism to Sedimentary Geology}, number~49 in
+  SEPM Special Publication, pages 181--191, Tulsa, Oklahoma, U.S.A. SEPM
+  (Society for Sedimentary Geology), SEPM (Society for Sedimentary Geology).
+
+\bibitem[Gonz\'{a}lez et~al., 2002]{Gonzalez}
+Gonz\'{a}lez, F., Aldana, M., Constanzo-\'{A}lvarez, V., D\'{i}az, M., and
+  Romero, I. (2002).
+\newblock An integrated rock magnetic and {EPR} study in soil samples from a
+  hydrocarbon prospective area.
+\newblock {\em Phys. Chem. Earth}, 27:1311--1317.
+
+\bibitem[Guzm\'{a}n et~al., 2011]{Guzman}
+Guzm\'{a}n, O., Costanzo-\'{A}lvarez, V., Aldana, M., and D\'{i}az, M. (2011).
+\newblock Study of magnetic constrasts applied to hydrocarbon exploration in
+  the {M}atur\'{i}n sub-basin (eastern {V}enezuela).
+\newblock {\em Stud. Geophys. Geod.}, 55:359--376.
+
+\bibitem[Liu et~al., 2004]{Liu2}
+Liu, Q., Chan, L., Liu, Q., Li, H., Wang, F., Zhang, S., Xia, X., and Cheng, T.
+  (2004).
+\newblock A study of relationship between magnetic, geochemical and
+  mineralogical anomalies and hydrocarbon microseepage above oil and gas
+  fields, {O}rdos {B}asin in {C}hina.
+\newblock {\em AAPG Bull.}, 88(2):241--251.
+
 \bibitem[Liu et~al., 2006]{Liu}
 Liu, Q., Liu, Q., Chan, L., Yang, T., Xia, X., and Cheng, T. (2006).
 \newblock Magnetic enhancement caused by hydrocarbon migration in the
   {M}awangmiao oil field, {J}ianghan basin, {C}hina.
 \newblock {\em Journal of Petroleum Science and Engineering}, 53:25--33.
 
+\bibitem[Liu and Liu, 1999]{Liu3}
+Liu, Q. and Liu, S. (1999).
+\newblock Magnetic and mineralogical characteristics of reservoir rocks in the
+  {Y}akela oil field, northern {T}arim {B}asin and their implications for
+  magnetic detection of oil and gas accumulations.
+\newblock {\em Chin. Sci. Bull.}, 4(2):174--177.
+
 \bibitem[Machel and Burton, 1991]{Machel}
 Machel, H.~G. and Burton, E.~A. (1991).
 \newblock Chemical and microbial processes causing anomalous magnetization in
   environments affected by hydrocarbon seepage.
 \newblock {\em Geophysics}, 56(5):598--605.
+
+\bibitem[Muxworthy et~al., 2013]{Mxwt1}
+Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., chang, L., and
+  P\'{o}sfai, M. (2013).
+\newblock Critical single domain grain sizes in chains of interacting greigite
+  particles: {I}mplications for magnetosome crystals.
+\newblock {\em Geochem. Geophys. Geosyst.}, 14(2):5430--5441.
+
+\bibitem[Reynolds et~al., 1993]{Reynolds}
+Reynolds, R.~L., Goldhaber, M.~B., and Tuttle, M.~L. (1993).
+\newblock Sulfidization and magnetization above hydrocarbon reservoirs.
+\newblock In A\''{i}ssaoui, D.~M., McNeill, D.~F., and Hurley, N.~F., editors,
+  {\em Applications of Paleomagnetism to Sedimentary Geology}, number~49 in
+  SEPM Special Publication, pages 167--179, Tulsa, Oklahoma, U.S.A. SEPM
+  (Society for Sedimentary Geology), SEPM (Society for Sedimentary Geology).
 
 \end{thebibliography}
