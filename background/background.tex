@@ -7,5 +7,77 @@
 
 \subsection{Fundamentals of magnetism}
 
-The description of magnetic fields is analogue to that of electrical fields. Although, unlike the situation in electricity, there are no magnetic charges, only magnetic dipoles. A more thorough analysis reveals the origin of magnetism is electrical: a circular electrical current (either a flow of electrons or a single electron) produces an \textit{induction} field $\vec{B}$. As such, the SI magnetic units are represented by electrical and mechanical units. Thus, on a fundamental level it is correct to understand magnetism as an electrical phenomenon.\par
+The magnetic field, just like the electric field, is defined by the its effect on a \textit{test charge}, namely the Lorentz force:
+\begin{equation}
+\vec{F} = q\vec{E} + q\vec{v}\times\vec{B}\, ,
+\end{equation}
+where $q$ is the electrical charge, $\vec{v}$ its velocity and $\vec{E}$ and $\vec{B}$ the electrical and magnetic field (although for historical reasons $\vec{B}$ is called the \textit{induction} field). Clearly the force a magnetic field exerts on a moving electrical charge is perpendicular to both its velocity and to the field itself. From the Lorentz law it is readily seen that the unit of $\vec{B}$ is $\frac{\mathrm{N}}{\mathrm{C}\cdot\frac{\mathrm{m}}{\mathrm{s}}}$, this physically meaningful unit is called Tesla, with symbol $\mathrm{T}$.
+
+The description of magnetic fields is analogue to that of electrical fields. Although, unlike the situation in electricity, there are no magnetic charges, only magnetic dipoles. A more thorough analysis reveals the origin of magnetism is electrical: an electrical current (either a flow of electrons or a single electron) produces an induction field $\vec{B}$. The induction due to a wire carrying a current $I$ (generally varying along the path) at point $\vec{r}$ can be calculated from the Biot-Savart law:
+\begin{equation}
+\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \int_C \frac{I\, d\vec{l}\, \times \, \vec{r}}{r^3} \, ,
+\end{equation}
+where $d\vec{l}$ is a differential element of length along the wire in the direction of the current. The integral is carried out along a line, usually but not necessarily a closed curve. Thus, on a fundamental level it is correct to understand magnetism as an electrical phenomenon.\par
+
+When describing magnetic fields the \textit{magnetic induction} $\vec{B}$ and the \textit{magnetic field} $\vec{H}$ are used. These denominations are of historical character and it has been proven that the true fundamental field is the induction field $\vec{B}$ (for a thorough discussion of why this is so see \citet{Feynman}) while $\vec{H}$ represents contributions to the field by macroscopic currents. Other contributions to the magnetic field are due to atomic dipoles and circular currents in a medium. In a vacuum, $\vec{B}$ and $\vec{H}$ coincide in direction as there are no atomic magnetic dipoles present. In the SI the magnetic and induction field differ by a scalar factor $\mu_0$, the \textit{magnetic constant}, also known as the vacuum permeability or permeability of free space:
+\begin{equation}
+\mu_0 = \frac{B_{\textit{vacuum}}}{H} = 4 \pi \cdot 10^{-7} \, \frac{\mathrm{V}\cdot\mathrm{s}}{\mathrm{A}\cdot\mathrm{m}} \, .
+\end{equation}
+Although the names vacuum permeability and permeability of free space are still widespread it is preferable to use the name magnetic constant since it reflects the fact that it's a defined value and not a measurement.\par
+
+In general, we are not interested in describing magnetic phenomena in a vacuum, rather it is more interesting and important to consider the presence of matter. A material is composed of atoms, which individually may hold a permanent magnetic dipole moment $\vec{\mu}$ (with units $\mathrm{A}\cdot m^2$). The \textit{magnetisation} vector field $\vec{M}$ is the spatial average of a myriad of these individual atomic dipole moments over a suitable volume. Therefore, $\vec{M}$ accounts for the contribution of atomic magnetic moments to the total field. In the SI units we have
+\begin{equation}
+\vec{B} = \mu_0 (\vec{H}+\vec{M})\, ;
+\end{equation}
+immediately we see that both $\vec{H}$ and $\vec{M}$ have the same units, the Ampere per meter $\frac{A}{m}$.
+
+\subsection{Diamagnetism and paramagnetism}
+
+\begin{table}\label{Susc}
+\begin{tabular}{l c}
+\hline
+\hline
+  & Magnetic susceptibility (per unit mass) \\ \cline{2-2}
+Mineral & $(10^{-8} \mathrm{m}^{3}/\mathrm{kg})$ \\ \hline
+\textit{Diamagnetic} & \\
+Quartz (SiO$_2$) & -0.62 \\
+Orthoclase feldspar (KAlSi$_3$O$_8$) & -0.58 \\
+Calcite (CaCO$_3$) & -0.48 \\
+Forsterite (Mg$_2$SiO$_4$) & -0.39 \\
+Water (H$_2$O) & -0.90 \\
+\textit{Paramagnetic} & \\
+Pyrite (FeS$_2$) & 30 \\
+Siderite (FeCO$_3$) & 123 \\
+Ilmenite (FeTiO$_3$) & 100--113 \\
+Orthopyroxenes ((Fe,Mg)SiO$_3$) & 43--92 \\
+Fayalite (Fe$_2$SiO$_4$) & 126 \\
+Intermediate olivine ((Fe,Mg)$_2$SiO$_4$) & 36 \\
+Serpentinite (Mg$_3$Si$_2$O$_5$(OH)$_4$) & $\geq 120$ \\
+Amphiboles & 16--94 \\
+Biotites & 67--98 \\
+Illite (clay) & 15 \\
+Montmorillonite (clay) & 14 \\
+\hline
+\hline
+\end{tabular}
+\caption{Magnetic susceptibilities of diamagnetic and paramagnetic materials. Reproduced from \citet{DuOzRM}.}
+\end{table}
+
+Magnetism in matter can be broadly categorised into three phenomena: diamagnetism, paramagnetism and ferromagnetism. Diamagnetism and paramagnetism are of little importance to us so we will only briefly describe them.\par
+
+Diamagnetism is a property of all matter. It is the smallest effect and is a tendency of a material to oppose an external magnetic field. An external magnetic field exerts a Lorentz force on the bound electrons that causes them to precess like a gyroscope. This is called Larmor precession and is equivalent to an electric current producing a magnetic moment in the direction opposed to the external $\vec{B}$ field. Water is a common example of a highly diamagnetic material.\par
+
+Paramagnetism is a partial alignment of the permanent atomic magnetic moments of the atoms in a material with an external $\vec{B}$ field. It is only thermal noise that prevents a perfect alignment of the atomic magnetic moments with the external field, therefore this is a highly temperature dependent phenomenon. Nevertheless, at ordinary temperatures, paramagnetism outweighs diamagnetism by a factor greater than 10.\par
+
+In both diamagnetism and paramagnetism a magnetisation is induced by an external field. The rate at which the magnetisation is acquired with respect to the applied field is called the \textit{magnetic susceptibility} $\chi = \frac{d\vec{M}}{d\vec{H}}$, in general a tensor. Table \ref{Susc} (reproduced from \citet{DuOzRM}) lists susceptibility values for some diamagnetic and paramagnetic materials.\par
+
+\subsection{Ferromagnetism}
+
+A common theme in diamagnetism and paramagnetism is that an external field induces a temporary magnetisation in the material; once the external field is removed the material loses its magnetisation. Also, at ordinary temperatures, only extremely high external fields of the order of 100 Tesla (for a sense of scale, the Earth's magnetic field is of the order of $10^{-4}$T) can induce in a paramagnetic material a saturation magnetisation---that is, a magnetisation that results from all the atomic magnetic moments aligning in exactly the same direction. A ferromagnetic material like Iron or Nickel is fundamentally different in both these aspects. It only takes external fields of the order of 0.1 Tesla to achieve a saturation magnetisation $M_s$ and once the external field is supressed the ferromagnetic material holds a measurable remanent magnetisation $M_r$.\par
+
+Ultimately, ferromagnetism is a phenomenon that cannot be explained solely by classical physics. At the core is the quantum-mechanical concept of \textit{spin exchange coupling}, a phenomenon with no classical counterpart. It was in \citet{Landau} that a continuum expression for the exchange energy was obtained. This seminal work and that of \citet{Brown} are the theoretical basis from which micromagnetism emerged. Micromagnetism is a theory that bridges the fundamental quantum-mechanical picture and the effective macroscopic theory of Maxwell equations. Therefore it operates in a scale that is sufficiently large to contain hundreds of atoms making it possible to think of the material as a continuum but not large enough to be described by the effective theory of Maxwell equations. The main goal of a micromagnetic investigation is to obtain a configuration of the magnetic moments in a ferromagnetic material. The main result in \citet{Landau} was the theoretical proof that inside a ferromagnetic material there are regions that are magnetised to saturation called magnetic \textit{domains} and that between these domains exist regions where the magnetisation continuously rotates from the direction of one domain to that of the other, these are called \textit{walls}.\par
+
+There are two main approaches to micromagnetism. One is obtaining a configuration of the magnetic moments in a ferromagnetic material by minimising the magnetic Gibbs free energy. The other is to solve a partial differential equation that describes the actual dynamics of the magnetic moments; this equation was derived by \citet{Landau} and improved by Gilbert, so it's called the Landau-Lifshits-Gilbert equation (LLGE).\par
+
+\subsection{Magnetic Gibbs free energy}
 

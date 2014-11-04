@@ -1,5 +1,5 @@
 @book{DuOzRM,
-author = "David J. Dunlop and \''{O}zden \''{O}zdemir",
+author = "David J. Dunlop and {\''O}zden {''O}zdemir",
 title = "Rock Magnetism",
 publisher = "Cambridge University Press",
 address = "Cambridge",
@@ -177,7 +177,7 @@ school = "University of Southampton",
 year = "2009",
 }
 
-@phdthesis{Emmerton,
+@phdthesis{EmmertonTh,
 author = "Stacey Anne Emmerton",
 title = "Investigating the relationship between magnetisation and oil geochemistry",
 school = "Imperial College London",
@@ -282,7 +282,7 @@ year = "1984",
 
 @article{Chang,
 author = "Liao Chang and Andrew P. Roberts and Yan Tang and Brian D. Rainford and Adrian R. Muxworthy",
-title = "Fundamental magnetic parameters from pure synthetic greigite ($\text{Fe}_3 \text{S}_4$)",
+title = "Fundamental magnetic parameters from pure synthetic greigite ({F}e$_3${S}$_4$)",
 journal = "J. Geophys. Res.",
 volume = "113",
 number = "B06104",
@@ -297,4 +297,31 @@ volume = "88",
 number = "2",
 pages = "241--251",
 year = "2004",
+}
+
+@article{Liu3,
+author = "Qingsheng Liu and Shugen Liu",
+title = "Magnetic and mineralogical characteristics of reservoir rocks in the {Y}akela oil field, northern {T}arim {B}asin and their implications for magnetic detection of oil and gas accumulations",
+journal = "Chin. Sci. Bull.",
+volume = "4",
+number = "2",
+pages = "174--177",
+year = "1999",
+}
+
+@article{Emmerton,
+author = "Stacey Emmerton and Adrian R. Muxworthy and Mark A. Sephton and Milagrosa Aldana and Vincenzo Costanzo-Alvarez and German Bayona and Wyn Williams",
+title = "Correlating biodegradation to magnetization in oil bearing sedimentary rocks",
+journal = "Geochimica et Geocosmochimica Acta",
+volume = "112",
+pages = "146--165",
+year = "2013",
+}
+
+@book{Feynman,
+author = "R. P. Feynman and R. B. Leighton and M. L. Sands",
+title = "The {F}eynman lectures on physics",
+publisher = "Addison-Wesley",
+address = "Reading, Mass.",
+year = "1964",
 }

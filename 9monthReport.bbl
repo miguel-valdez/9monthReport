@@ -11,7 +11,7 @@ Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., and G\'{o}mez,
 Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., and Muxworthy, A.~R.
   (2008).
 \newblock Fundamental magnetic parameters from pure synthetic greigite
-  ($\text{Fe}_3 \text{S}_4$).
+  ({F}e$_3${S}$_4$).
 \newblock {\em J. Geophys. Res.}, 113(B06104).
 
 \bibitem[Costanzo-Alvarez et~al., 2006]{Costanzo}
@@ -39,6 +39,11 @@ Donovan, T.~J., Hendricks, J.~D., Roberts, A.~A., and Eliason, P.~T. (1984).
   {N}ational {W}ildlife {R}efuge, {A}laska.
 \newblock {\em Geophysics}, 49(8):1338--1353.
 
+\bibitem[Dunlop and {\"O}zdemir, 1997]{DuOzRM}
+Dunlop, D.~J. and {\"O}zdemir, {\"O}. (1997).
+\newblock {\em Rock Magnetism}.
+\newblock Cambridge University Press, Cambridge.
+
 \bibitem[Elmore et~al., 1993]{Elmore}
 Elmore, R.~D., Imbus, S.~W., Engel, M.~H., and Fruit, D. (1993).
 \newblock Hydrocarbons and magnetizations in magnetite.
@@ -46,6 +51,18 @@ Elmore, R.~D., Imbus, S.~W., Engel, M.~H., and Fruit, D. (1993).
   {\em Applications of Paleomagnetism to Sedimentary Geology}, number~49 in
   SEPM Special Publication, pages 181--191, Tulsa, Oklahoma, U.S.A. SEPM
   (Society for Sedimentary Geology), SEPM (Society for Sedimentary Geology).
+
+\bibitem[Emmerton et~al., 2013]{Emmerton}
+Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., Aldana, M., Costanzo-Alvarez,
+  V., Bayona, G., and Williams, W. (2013).
+\newblock Correlating biodegradation to magnetization in oil bearing
+  sedimentary rocks.
+\newblock {\em Geochimica et Geocosmochimica Acta}, 112:146--165.
+
+\bibitem[Feynman et~al., 1964]{Feynman}
+Feynman, R.~P., Leighton, R.~B., and Sands, M.~L. (1964).
+\newblock {\em The {F}eynman lectures on physics}.
+\newblock Addison-Wesley, Reading, Mass.
 
 \bibitem[Gonz\'{a}lez et~al., 2002]{Gonzalez}
 Gonz\'{a}lez, F., Aldana, M., Constanzo-\'{A}lvarez, V., D\'{i}az, M., and
@@ -59,6 +76,12 @@ Guzm\'{a}n, O., Costanzo-\'{A}lvarez, V., Aldana, M., and D\'{i}az, M. (2011).
 \newblock Study of magnetic constrasts applied to hydrocarbon exploration in
   the {M}atur\'{i}n sub-basin (eastern {V}enezuela).
 \newblock {\em Stud. Geophys. Geod.}, 55:359--376.
+
+\bibitem[Landau and Lifshits, 1935]{Landau}
+Landau, L. and Lifshits, E. (1935).
+\newblock On the theory of the dispersion of magnetic permeability in
+  ferromagnetic bodies.
+\newblock {\em Phys. Z. Sowjetunion}, 8(53).
 
 \bibitem[Liu et~al., 2004]{Liu2}
 Liu, Q., Chan, L., Liu, Q., Li, H., Wang, F., Zhang, S., Xia, X., and Cheng, T.
@@ -101,5 +124,10 @@ Reynolds, R.~L., Goldhaber, M.~B., and Tuttle, M.~L. (1993).
   {\em Applications of Paleomagnetism to Sedimentary Geology}, number~49 in
   SEPM Special Publication, pages 167--179, Tulsa, Oklahoma, U.S.A. SEPM
   (Society for Sedimentary Geology), SEPM (Society for Sedimentary Geology).
+
+\bibitem[W.~F.~Brown, 1940]{Brown}
+W.~F.~Brown, J. (1940).
+\newblock Theory of the approach to magnetic saturation.
+\newblock {\em Phys. Rev.}, 58(736):736--743.
 
 \end{thebibliography}
