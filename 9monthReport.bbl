@@ -1,11 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[Abert et~al., 2013]{Abert}
+Abert, C., Exl, L., Bruckner, F., Drews, A., and Suess, D. (2013).
+\newblock magnum.fe: {A} micromagnetic finite-element simulation code based on
+  {FE}ni{CS}.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 345:29--35.
+
 \bibitem[Aldana et~al., 1999]{Aldana}
 Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., and G\'{o}mez,
   G. (1999).
 \newblock Framboidal magnetic minerals and their possible association to
   hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
 \newblock {\em Geof\'{i}s. Int.}, 38(3):137--152.
+
+\bibitem[Brown, 1963]{BrownMM}
+Brown, W.~F. (1963).
+\newblock {\em Micromagnetics}.
+\newblock Interscience, New York.
 
 \bibitem[Chang et~al., 2008]{Chang}
 Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., and Muxworthy, A.~R.
@@ -59,6 +70,13 @@ Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., Aldana, M., Costanzo-Alvarez,
   sedimentary rocks.
 \newblock {\em Geochimica et Geocosmochimica Acta}, 112:146--165.
 
+\bibitem[Fabian et~al., 1996]{Fabian}
+Fabian, K., Kirchner, A., Williams, W., Heider, F., Leibl, T., and Huber, A.
+  (1996).
+\newblock Three-dimensional micromagnetic calculations for magnetite using
+  {FFT}.
+\newblock {\em Geophys. J. Int.}, 124:89--104.
+
 \bibitem[Feynman et~al., 1964]{Feynman}
 Feynman, R.~P., Leighton, R.~B., and Sands, M.~L. (1964).
 \newblock {\em The {F}eynman lectures on physics}.
@@ -77,8 +95,14 @@ Guzm\'{a}n, O., Costanzo-\'{A}lvarez, V., Aldana, M., and D\'{i}az, M. (2011).
   the {M}atur\'{i}n sub-basin (eastern {V}enezuela).
 \newblock {\em Stud. Geophys. Geod.}, 55:359--376.
 
-\bibitem[Landau and Lifshits, 1935]{Landau}
-Landau, L. and Lifshits, E. (1935).
+\bibitem[Imhoff et~al., 1990]{Imhoff}
+Imhoff, J.~F., Meunler, G., Brunotte, X., and Sabonnadi\`{e}re, J.~C. (1990).
+\newblock An original solution for unbounded electromagnetic 2{D}- and
+  3{D}-problemas throughout the finite element method.
+\newblock {\em IEEE Transactions on Magnetics}, 26(5):1659--1661.
+
+\bibitem[Landau and Lifshitz, 1935]{Landau}
+Landau, L. and Lifshitz, E. (1935).
 \newblock On the theory of the dispersion of magnetic permeability in
   ferromagnetic bodies.
 \newblock {\em Phys. Z. Sowjetunion}, 8(53).
@@ -110,6 +134,12 @@ Machel, H.~G. and Burton, E.~A. (1991).
   environments affected by hydrocarbon seepage.
 \newblock {\em Geophysics}, 56(5):598--605.
 
+\bibitem[Muxworthy et~al., 2003]{Mxwt2}
+Muxworthy, A., Williams, W., and Virdee, D. (2003).
+\newblock Effect of magnetostatic interactions on the hysteresis parameters of
+  single-domain and pseudo-single-domain grains.
+\newblock {\em J. Geophys. Res}, 108(B11):2517.
+
 \bibitem[Muxworthy et~al., 2013]{Mxwt1}
 Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., chang, L., and
   P\'{o}sfai, M. (2013).
@@ -125,9 +155,44 @@ Reynolds, R.~L., Goldhaber, M.~B., and Tuttle, M.~L. (1993).
   SEPM Special Publication, pages 167--179, Tulsa, Oklahoma, U.S.A. SEPM
   (Society for Sedimentary Geology), SEPM (Society for Sedimentary Geology).
 
+\bibitem[Rhodes and Rowlands, 1954]{Rhodes}
+Rhodes, P. and Rowlands, G. (1954).
+\newblock Demagnetising energies of uniformly magnetised rectangular blocks.
+\newblock {\em Proc. Leeds Phil. Lit. Soc., Sci. Sect.}, 6:191--210.
+
+\bibitem[Scholz, 2003]{ScholzTh}
+Scholz, W. (2003).
+\newblock {\em Scalable parallel micromagnetic solvers for magnetic
+  nanostructures}.
+\newblock PhD thesis, Technischen Universit{\"a}t Wien.
+
+\bibitem[Suess et~al., 2002]{Suess}
+Suess, D., Tsiantos, V., Schrefl, T., Fidler, J., Scholz, W., Forster, H.,
+  Dittrich, R., and Miles, J.~J. (2002).
+\newblock Time resolved micromagnetics using a preconditioned time integration
+  method.
+\newblock {\em Journal of magnetism and magnetic materials}, 248:298--311.
+
 \bibitem[W.~F.~Brown, 1940]{Brown}
 W.~F.~Brown, J. (1940).
 \newblock Theory of the approach to magnetic saturation.
 \newblock {\em Phys. Rev.}, 58(736):736--743.
+
+\bibitem[Williams and Dunlop, 1989]{Wyn2}
+Williams, W. and Dunlop, D.~J. (1989).
+\newblock Three-dimensional micromagnetic modelling of ferromagnetic domain
+  structure.
+\newblock {\em Nature}, 337:634--637.
+
+\bibitem[Williams et~al., 2010]{Wyn1}
+Williams, W., Evans, M.~E., and Kr\'{a}sa, D. (2010).
+\newblock Micromagnetics of paleomagnetically significant mineral grains with
+  complex morphology.
+\newblock {\em Geochem. Geophys. Geosyst.}, 11(2).
+
+\bibitem[Wright et~al., 1997]{Wright}
+Wright, T.~M., Williams, W., and Dunlop, D.~J. (1997).
+\newblock An improved algorith for micromagnetics.
+\newblock {\em J. Geophys. Res.}, 102(B6):12085--12094.
 
 \end{thebibliography}

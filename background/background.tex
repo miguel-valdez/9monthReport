@@ -1,5 +1,5 @@
 
-\chapter{Background Theory}
+\chapter{Background theory}
 
 \label{ch:background}
 
@@ -9,27 +9,27 @@
 
 The magnetic field, just like the electric field, is defined by the its effect on a \textit{test charge}, namely the Lorentz force:
 \begin{equation}
-\vec{F} = q\vec{E} + q\vec{v}\times\vec{B}\, ,
+\mathbf{F} = q\mathbf{E} + q\mathbf{v}\times\mathbf{B}\, ,
 \end{equation}
-where $q$ is the electrical charge, $\vec{v}$ its velocity and $\vec{E}$ and $\vec{B}$ the electrical and magnetic field (although for historical reasons $\vec{B}$ is called the \textit{induction} field). Clearly the force a magnetic field exerts on a moving electrical charge is perpendicular to both its velocity and to the field itself. From the Lorentz law it is readily seen that the unit of $\vec{B}$ is $\frac{\mathrm{N}}{\mathrm{C}\cdot\frac{\mathrm{m}}{\mathrm{s}}}$, this physically meaningful unit is called Tesla, with symbol $\mathrm{T}$.
+where $q$ is the electrical charge, $\mathbf{v}$ its velocity and $\mathbf{E}$ and $\mathbf{B}$ the electrical and magnetic field (although for historical reasons $\mathbf{B}$ is called the \textit{induction} field). Clearly the force a magnetic field exerts on a moving electrical charge is perpendicular to both its velocity and to the field itself. From the Lorentz law it is readily seen that the unit of $\mathbf{B}$ is $\frac{\mathrm{N}}{\mathrm{C}\cdot\frac{\mathrm{m}}{\mathrm{s}}}$, this physically meaningful unit is called Tesla, with symbol $\mathrm{T}$.
 
-The description of magnetic fields is analogue to that of electrical fields. Although, unlike the situation in electricity, there are no magnetic charges, only magnetic dipoles. A more thorough analysis reveals the origin of magnetism is electrical: an electrical current (either a flow of electrons or a single electron) produces an induction field $\vec{B}$. The induction due to a wire carrying a current $I$ (generally varying along the path) at point $\vec{r}$ can be calculated from the Biot-Savart law:
+The description of magnetic fields is analogue to that of electrical fields. Although, unlike the situation in electricity, there are no magnetic charges, only magnetic dipoles. A more thorough analysis reveals the origin of magnetism is electrical: an electrical current (either a flow of electrons or a single electron) produces an induction field $\mathbf{B}$. The induction due to a wire carrying a current $I$ (generally varying along the path) at point $\mathbf{r}$ can be calculated from the Biot-Savart law:
 \begin{equation}
-\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \int_C \frac{I\, d\vec{l}\, \times \, \vec{r}}{r^3} \, ,
+\mathbf{B}(\mathbf{r}) = \frac{\mu_0}{4\pi} \int_C \frac{I\, \mathrm{d}\mathbf{l}\, \times \, \mathbf{r}}{r^3} \, ,
 \end{equation}
-where $d\vec{l}$ is a differential element of length along the wire in the direction of the current. The integral is carried out along a line, usually but not necessarily a closed curve. Thus, on a fundamental level it is correct to understand magnetism as an electrical phenomenon.\par
+where $d\mathbf{l}$ is a differential element of length along the wire in the direction of the current. The integral is carried out along a line, usually but not necessarily a closed curve. Thus, on a fundamental level it is correct to understand magnetism as an electrical phenomenon.\par
 
-When describing magnetic fields the \textit{magnetic induction} $\vec{B}$ and the \textit{magnetic field} $\vec{H}$ are used. These denominations are of historical character and it has been proven that the true fundamental field is the induction field $\vec{B}$ (for a thorough discussion of why this is so see \citet{Feynman}) while $\vec{H}$ represents contributions to the field by macroscopic currents. Other contributions to the magnetic field are due to atomic dipoles and circular currents in a medium. In a vacuum, $\vec{B}$ and $\vec{H}$ coincide in direction as there are no atomic magnetic dipoles present. In the SI the magnetic and induction field differ by a scalar factor $\mu_0$, the \textit{magnetic constant}, also known as the vacuum permeability or permeability of free space:
+When describing magnetic fields the \textit{magnetic induction} $\mathbf{B}$ and the \textit{magnetic field} $\mathbf{H}$ are used. These denominations are of historical character and it has been proven that the true fundamental field is the induction field $\mathbf{B}$ (for a thorough discussion of why this is so see \citet{Feynman}) while $\mathbf{H}$ represents contributions to the field by macroscopic currents. Other contributions to the magnetic field are due to atomic dipoles and circular currents in a medium. In a vacuum, $\mathbf{B}$ and $\mathbf{H}$ coincide in direction as there are no atomic magnetic dipoles present. In the SI the magnetic and induction field differ by a scalar factor $\mu_0$, the \textit{magnetic constant}, also known as the vacuum permeability or permeability of free space:
 \begin{equation}
 \mu_0 = \frac{B_{\textit{vacuum}}}{H} = 4 \pi \cdot 10^{-7} \, \frac{\mathrm{V}\cdot\mathrm{s}}{\mathrm{A}\cdot\mathrm{m}} \, .
 \end{equation}
 Although the names vacuum permeability and permeability of free space are still widespread it is preferable to use the name magnetic constant since it reflects the fact that it's a defined value and not a measurement.\par
 
-In general, we are not interested in describing magnetic phenomena in a vacuum, rather it is more interesting and important to consider the presence of matter. A material is composed of atoms, which individually may hold a permanent magnetic dipole moment $\vec{\mu}$ (with units $\mathrm{A}\cdot m^2$). The \textit{magnetisation} vector field $\vec{M}$ is the spatial average of a myriad of these individual atomic dipole moments over a suitable volume. Therefore, $\vec{M}$ accounts for the contribution of atomic magnetic moments to the total field. In the SI units we have
+In general, we are not interested in describing magnetic phenomena in a vacuum, rather it is more interesting and important to consider the presence of matter. A material is composed of atoms, which individually may hold a permanent magnetic dipole moment $\mathbf{\mu}$ (with units $\mathrm{A}\cdot m^2$). The \textit{magnetisation} vector field $\mathbf{M}$ is the spatial average of a myriad of these individual atomic dipole moments over a suitable volume. Therefore, $\mathbf{M}$ accounts for the contribution of atomic magnetic moments to the total field. In the SI units we have
 \begin{equation}
-\vec{B} = \mu_0 (\vec{H}+\vec{M})\, ;
+\mathbf{B} = \mu_0 (\mathbf{H}+\mathbf{M})\, ;
 \end{equation}
-immediately we see that both $\vec{H}$ and $\vec{M}$ have the same units, the Ampere per meter $\frac{A}{m}$.
+immediately we see that both $\mathbf{H}$ and $\mathbf{M}$ have the same units, the Ampere per meter $\frac{A}{m}$.
 
 \subsection{Diamagnetism and paramagnetism}
 
@@ -65,19 +65,92 @@ Montmorillonite (clay) & 14 \\
 
 Magnetism in matter can be broadly categorised into three phenomena: diamagnetism, paramagnetism and ferromagnetism. Diamagnetism and paramagnetism are of little importance to us so we will only briefly describe them.\par
 
-Diamagnetism is a property of all matter. It is the smallest effect and is a tendency of a material to oppose an external magnetic field. An external magnetic field exerts a Lorentz force on the bound electrons that causes them to precess like a gyroscope. This is called Larmor precession and is equivalent to an electric current producing a magnetic moment in the direction opposed to the external $\vec{B}$ field. Water is a common example of a highly diamagnetic material.\par
+Diamagnetism is a property of all matter. It is the smallest effect and is a tendency of a material to oppose an external magnetic field. An external magnetic field exerts a Lorentz force on the bound electrons that causes them to precess like a gyroscope. This is called Larmor precession and is equivalent to an electric current producing a magnetic moment in the direction opposed to the external $\mathbf{B}$ field. Water is a common example of a highly diamagnetic material.\par
 
-Paramagnetism is a partial alignment of the permanent atomic magnetic moments of the atoms in a material with an external $\vec{B}$ field. It is only thermal noise that prevents a perfect alignment of the atomic magnetic moments with the external field, therefore this is a highly temperature dependent phenomenon. Nevertheless, at ordinary temperatures, paramagnetism outweighs diamagnetism by a factor greater than 10.\par
+Paramagnetism is a partial alignment of the permanent atomic magnetic moments of the atoms in a material with an external $\mathbf{B}$ field. It is only thermal noise that prevents a perfect alignment of the atomic magnetic moments with the external field, therefore this is a highly temperature dependent phenomenon. Nevertheless, at ordinary temperatures, paramagnetism outweighs diamagnetism by a factor greater than 10.\par
 
-In both diamagnetism and paramagnetism a magnetisation is induced by an external field. The rate at which the magnetisation is acquired with respect to the applied field is called the \textit{magnetic susceptibility} $\chi = \frac{d\vec{M}}{d\vec{H}}$, in general a tensor. Table \ref{Susc} (reproduced from \citet{DuOzRM}) lists susceptibility values for some diamagnetic and paramagnetic materials.\par
+In both diamagnetism and paramagnetism a magnetisation is induced by an external field. The rate at which the magnetisation is acquired with respect to the applied field is called the \textit{magnetic susceptibility} $\chi = \frac{d\mathbf{M}}{d\mathbf{H}}$, in general a tensor. Table \ref{Susc} (reproduced from \citet{DuOzRM}) lists susceptibility values for some diamagnetic and paramagnetic materials.\par
 
 \subsection{Ferromagnetism}
 
 A common theme in diamagnetism and paramagnetism is that an external field induces a temporary magnetisation in the material; once the external field is removed the material loses its magnetisation. Also, at ordinary temperatures, only extremely high external fields of the order of 100 Tesla (for a sense of scale, the Earth's magnetic field is of the order of $10^{-4}$T) can induce in a paramagnetic material a saturation magnetisation---that is, a magnetisation that results from all the atomic magnetic moments aligning in exactly the same direction. A ferromagnetic material like Iron or Nickel is fundamentally different in both these aspects. It only takes external fields of the order of 0.1 Tesla to achieve a saturation magnetisation $M_s$ and once the external field is supressed the ferromagnetic material holds a measurable remanent magnetisation $M_r$.\par
 
-Ultimately, ferromagnetism is a phenomenon that cannot be explained solely by classical physics. At the core is the quantum-mechanical concept of \textit{spin exchange coupling}, a phenomenon with no classical counterpart. It was in \citet{Landau} that a continuum expression for the exchange energy was obtained. This seminal work and that of \citet{Brown} are the theoretical basis from which micromagnetism emerged. Micromagnetism is a theory that bridges the fundamental quantum-mechanical picture and the effective macroscopic theory of Maxwell equations. Therefore it operates in a scale that is sufficiently large to contain hundreds of atoms making it possible to think of the material as a continuum but not large enough to be described by the effective theory of Maxwell equations. The main goal of a micromagnetic investigation is to obtain a configuration of the magnetic moments in a ferromagnetic material. The main result in \citet{Landau} was the theoretical proof that inside a ferromagnetic material there are regions that are magnetised to saturation called magnetic \textit{domains} and that between these domains exist regions where the magnetisation continuously rotates from the direction of one domain to that of the other, these are called \textit{walls}.\par
+Ultimately, ferromagnetism is a phenomenon that cannot be explained solely by classical physics. At the core is the quantum-mechanical concept of \textit{spin exchange coupling}, a phenomenon with no classical counterpart. It was in \citet{Landau} that a continuum expression for the exchange energy was obtained. This seminal work and that of \citet{Brown} are the theoretical basis from which micromagnetism emerged. Micromagnetism is a theory that bridges the fundamental quantum-mechanical picture and the effective macroscopic theory of Maxwell equations. Therefore it operates in a scale that is sufficiently large to contain hundreds of atoms making it possible to think of the material as a continuum but not large enough to be described by the effective theory of Maxwell equations. The main goal of a micromagnetic investigation is to obtain a configuration of the magnetic moments in a ferromagnetic material. The main result in \citet{Landau} was the theoretical proof that inside a ferromagnetic material there are regions that are magnetised to saturation called magnetic \textit{domains} and that between these domains exist regions where the magnetisation continuously rotates from the direction of one domain to that of the other, these are called \textit{domain walls}.\par
 
-There are two main approaches to micromagnetism. One is obtaining a configuration of the magnetic moments in a ferromagnetic material by minimising the magnetic Gibbs free energy. The other is to solve a partial differential equation that describes the actual dynamics of the magnetic moments; this equation was derived by \citet{Landau} and improved by Gilbert, so it's called the Landau-Lifshits-Gilbert equation (LLGE).\par
+There are two main approaches to micromagnetism. One is obtaining a configuration of the magnetic moments in a ferromagnetic material by minimising the magnetic Gibbs free energy. The other is to solve a partial differential equation that describes the actual dynamics of the magnetic moments; this equation was derived by \citet{Landau} and improved by Gilbert, so it's appropriately called the Landau-Lifshitz-Gilbert equation (LLGE).\par
 
 \subsection{Magnetic Gibbs free energy}
 
+Magnetic energy is that which is dependent on the magnetisation of the material. It is known from thermodynamics that starting from a nonequilibrium state the evolution of a system can be only such that its Gibbs free energy diminishes. So, by an explicit formulation of the different energies contributing to the total magnetic Gibbs free energy it is possible to find a configuration that is either a local energy minimum (LEM) or global energy minimum (GEM). One of the biggest contributions of micromagnetics to our understanding of magnetic phenomena in matter is that it is quite common for a material to be in a LEM configuration rather than GEM. We will now briefly review four magnetic energies that contribute to the total. There are microscopic contributions like the exchange energy and the magnetocrystalline anisotropy energy. Also macroscopic contributions like the magnetostatic energy and the Zeeman energy. For simplicity we will not be interested at this moment in the  magnetoelastic energy due to mechanical stress and deformation of the material. The external or Zeeman field is independent of the magnetisation and the exchange and anisotropy energies are short range so these are very easy to calculate. The magnetostatic interaction between the magnetic moments is a long range interaction and is the most numerically expensive contribution. This energy creates a demagnetising effect. Thus, we can write the total magnetic Gibbs free energy as
+\begin{equation}\label{gibbs0}
+E_{\textnormal{total}} = \int_{\Omega} (\omega_{\textnormal{exch}} + \omega_{\textnormal{anis}} + \omega_{\textnormal{demag}} + \omega_{\textnormal{zeeman}})\, \mathrm{d}v \, .
+\end{equation}
+The exchange energy is a quantum-mechanical phenomenon wherein the exchange of inner shell electrons between neighbouring atoms results in the so-called spin exchange coupling. The continuum expression was obtained by \citet{Landau} and found to be proportional, up to a constant, to the square of the gradient of the magnetisation distribution:
+\begin{equation}
+\omega_{\textnormal{exch}} = A \left( (\nabla u_x)^2 + (\nabla u_y)^2 + (\nabla u_z)^2 \right) \, ,
+\end{equation}
+where $A$ is the exchange stiffness constant and $\mathbf{M} = M_s\mathbf{u}$, i.e., $\mathbf{u}$ is a unit vector in the direction of the magnetisation. The effect of the exchange energy is that it homogenises the distribution of moments.\par
+
+The magnetocrystalline anisotropy energy is due to the atomic configuration of a crystalline material. The specific arrangement of atoms in the crystal can cause some directions to be easier for the moments to align with. These directions are called \textit{easy axis}. The anisotropy energy of a uniaxial system (one that has only one easy axis) is given by
+\begin{equation}
+\omega_{\textnormal{anis}} = K_1(1-(\mathbf{a}\cdot\mathbf{u})^2) \, ,
+\end{equation}
+where $K_1$ is the first anisotropy constant and $\mathbf{a}$ is a unit vector in the direction of the easy axis. The effect of the anisotropy energy is a tendency for the magnetic moments to align with the easy axis of magnetisation.\par
+
+The Zeeman energy is just the potential energy associated to the magnetic moments when an external or Zeeman field is applied.
+\begin{equation}
+\omega_{\textnormal{zeeman}} = -\mathbf{M} \cdot \mathbf{B}_{\textnormal{Z}} \, ,
+\end{equation}
+where $\mathbf{B}_{\textnormal{Z}}$ is an external magnetic induction field. This energy tends to align the magnetic moments with the external field.\par
+
+The magnetostatic energy is due to the magnetostatic interaction each magnetic moment has with each other. Since in a micromagnetic model there can be hundreds of thousands of individual magnetic moments it's the most expensive to calculate. Many methods have been devised to avoid calculating this interaction for each moment, most of these based on the magnetic vector or scalar potential. We refer to \citet{Abert} and \citet{Imhoff} for two such methods. The magnetostatic energy creates a demagnetising effect, that is, an internal field $\mathbf{B}_{\textnormal{demag}} = \mu_0 \mathbf{H}_{\textnormal{demag}}$ produced by the magnetisation distribution that opposes the magnetisation. It is also the phenomenon that has the biggest role in the domain structure of bigger materials. Once this demagnetising field is calculated, the magnetostatic energy can be expressed as
+\begin{equation}
+\omega_{\textnormal{demag}} = -\frac{1}{2} \mathbf{M}\cdot\mathbf{B}_{\textnormal{demag}} \, ,
+\end{equation}
+where the factor $\frac{1}{2}$ is added because the interaction of magnetic moment $\mu_i$ with $\mu_j$ is counted twice.\par
+
+We may now rewrite equation (\ref{gibbs0}) as
+\begin{multline}
+E_{\textnormal{total}} = \int_{\Omega} \left( A \left( (\nabla u_x)^2 + (\nabla u_y)^2 + (\nabla u_z)^2 \right) + K_1(1-(\mathbf{a}\cdot\mathbf{u})^2) \right. \\
+\left. - \mathbf{M} \cdot \mathbf{B}_{\textnormal{Z}} -\frac{1}{2} \mathbf{M}\cdot\mathbf{B}_{\textnormal{demag}} \right) \, \mathrm{d}v \, .
+\end{multline}
+A system out of equilibrium will evolve by diminishing its free energy. The aim of micromagnetic theory is to obtain a distribution of the magnetic moments in equilibrum. \citet{BrownMM} proposed a variational method based on the variational derivative of the total energy with respect to the magnetisation. In equilibrium, the variation of the free energy vanishes
+\begin{equation}
+\frac{\delta E_{\textnormal{total}}}{\delta\mathbf{u}} = 0 \, .
+\end{equation}
+This leads to Brown's equation
+\begin{equation}
+\mathbf{u} \times \left( 2A\Delta\mathbf{u} + 2K_1 \mathbf{a}(\mathbf{u}\cdot\mathbf{a}) + M_s \mathbf{B}_{\textnormal{Z}} + M_s \mathbf{B}_{\textnormal{demag}} \right) = 0 \, .
+\end{equation}
+This means that in equilibrium the magnetisation is parallel to an \textit{effective field}
+\begin{equation}
+\mathbf{B}_{\textnormal{eff}} = \frac{2}{M_s}\Delta\mathbf{u} + \frac{2K_1}{M_s}\mathbf{a}(\mathbf{u}\cdot\mathbf{a}) + \mathbf{B}_{\textnormal{Z}} + \mathbf{B}_{\textnormal{demag}} \, ,
+\end{equation}
+and so, the torque acting on the magnetic moments vanishes $\mathbf{M} \times \mathbf{B}_{\textnormal{eff}} = 0$.
+
+\subsection{The Landau-Lifshitz-Gilbert equation}
+
+Finding an equilibrium magnetisation via minimisation of equation (\ref{gibbs0}) may not always result in physically meaningful distributions. This is because ``the energy landscape of a micromagnetic system is usually very complicated and contains many local maxima, minima and saddle points" \citep{ScholzTh}. Therefore a more physical approach is finding a solution to the dynamical problem. The motion of a magnetic moment is mainly due to the Larmor precession around its local field. The Gilbert equation describes this precession and considers damping effects with a single damping constant $\alpha$
+\begin{equation}
+\frac{d\mathbf{M}}{dt} = -\gamma\mathbf{M}\times\mathbf{H} + \frac{\alpha}{M_s}\mathbf{M}\times\frac{d\mathbf{M}}{dt} \, ,
+\end{equation}
+where $\gamma = 2.210173 \times 10^5 \frac{\mathrm{m}}{\mathrm{A}\cdot\mathrm{s}}$ is the gyromagnetic ratio.
+This formulation is equivalent to the LLGE when damping is small
+\begin{equation}
+\frac{d\mathbf{M}}{dt} = -\gamma^{'} \mathbf{M}\times\mathbf{H} - \frac{\alpha\gamma^{'}}{M_s} \mathbf{M}\times(\mathbf{M}\times\mathbf{H}) \, ,
+\end{equation}
+with $\gamma^{'} = \frac{\gamma}{1+\alpha^2}$.
+
+\subsection{Micromagnetic modelling}
+
+While the fundamentals of micromagnetic theory were laid out by \citet{Landau} and \citet{Brown} already by the first half of the 20th century, analytical treatment of the micromagnetic equations has been limited to the simpler cases like plane domain walls or the law of approach to magnetic saturation. In order to investigate more complex situations it is necessary to turn to approximate methods. Numerical simulations of the micromagnetic equations are, in the most general case, numerically very expensive, specially the calculation of the long-range nonlinear demagnetising energy due to magnetostatic dipolar interactions. This constrained the primitive numerical investigations to one- or two-dimensional rotations of the dipoles as well as geometries. Although useful to probe the stability of ferromagnetic crystals, these constrained simulations are very limited as there is no doubt that the true nature of spin structures in ferromagnetic crystals is three-dimensional.\par
+
+\citet{Wyn2} conducted unconstrained three-dimensional simulations of single magnetite cubic grains, confirming the critical size of single domain magnetite grains using a conjugate gradient method for minimising the energy. Their method consisted in subdividing a cubic ``sample'' of magnetite into further cubes within the exchange length of the material. Inside each of the cubic cells the magnetisation is the average over a very large number of atomic spins and is represented by a magnetic dipole $\mathbf{m}_i$ at the center of the cube. The magnitude of all the dipoles is constant but their directions are allowed to vary. Already in a sample divided into $12\times 12\times 12$ cells, a direct calculation of the demagnetising energy would take around 1.5 million interaction calculations per iteration. Rewriting the demagnetising energy in the manner of \citet{Rhodes} they were able to reduce the computation significantly and solve for up to $22\times 22\times 22$ subcubes.\par
+
+While the exchange, anisotropy and Zeeman energy are local and easily calculated, it is the nonlocal dipolar magnetostatic interactions that are the principal obstacle in scaling up simulations. Much of the effort in micromagnetic research has been directed towards creating ever more efficient ways to calculate the demagnetising energy. \citet{Fabian} and \citet{Wright} have developed and applied finite difference methods based on a fast Fourier transform to calculate the demagnetising energy. This, together with growing computing capabilities have allowed micromagnetics to move towards bigger models. Nevertheless, finite difference methods restrict the models' geometries to cuboid (rectangular prisms more generally) shapes that, while useful, are somewhat unrealistic shapes for most magnetic minerals.\par
+
+Finite element methods (FEM) have the advantage of being more flexible in regards to the geometries that can be modelled; in fact, they allow for arbitrary shapes. This advantage comes at the cost of higher mathematical complexity. However, the geometric flexibility of FEM allowed \citet{Wyn1} to model mineral grains with complex morphologies.\par
+
+The minimisation of the magnetic Gibbs free energy , though useful, can lead to unphysical situations where the final configuration lies in a shallow energy minimum. Also, it is only useful to find equilibrium states and so the path taken cannot be interpreted as a physical solution that reflects the dynamics. The solution to this problem is to solve the dynamics of the system via the LLGE. \citet{Suess} developed a preconditioned integration method for the LLGE using a FEM. This allowed to simulate the dynamics and configurations of granular media.\par
+
+The capabilities of today's computers allows to simulate not only single grains but clusters of them that interact magnetostatically with each other. This once untractable problem has been proved to be crucial and influence the critical sizes of single domain grains. \citet{Mxwt2} used a finite difference method and investigated the effect of magnetostatic interactions between magnetite grains on the hysteresis parameters. \citet{Mxwt1} used the recently measured \citep{Chang} magnetic parameters of highly pure greigite to investigate the intergrain influence in chains of greigite and its implications for magnetosome crystals. These investigations can be furthered by FEM by modelling more realistic geometries and even multiple magnetic phases.\par

@@ -1,5 +1,5 @@
 @book{DuOzRM,
-author = "David J. Dunlop and {\''O}zden {''O}zdemir",
+author = "David J. Dunlop and {\"O}zden {\"O}zdemir",
 title = "Rock Magnetism",
 publisher = "Cambridge University Press",
 address = "Cambridge",
@@ -185,7 +185,7 @@ year = "2013",
 }
 
 @article{Landau,
-author = "L. Landau and E. Lifshits",
+author = "L. Landau and E. Lifshitz",
 title = "On the theory of the dispersion of magnetic permeability in ferromagnetic bodies",
 journal = "Phys. Z. Sowjetunion",
 volume = "8",
@@ -324,4 +324,19 @@ title = "The {F}eynman lectures on physics",
 publisher = "Addison-Wesley",
 address = "Reading, Mass.",
 year = "1964",
+}
+
+@book{BrownMM,
+author = "W. F. Brown",
+title = "Micromagnetics",
+publisher = "Interscience",
+address = "New York",
+year = "1963",
+}
+
+@phdthesis{ScholzTh,
+author = "Werner Scholz",
+title = "Scalable parallel micromagnetic solvers for magnetic nanostructures",
+school = "Technischen Universit{\"a}t Wien",
+year = "2003",
 }
