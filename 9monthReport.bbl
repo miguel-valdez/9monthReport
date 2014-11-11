@@ -13,10 +13,23 @@ Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., and G\'{o}mez,
   hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
 \newblock {\em Geof\'{i}s. Int.}, 38(3):137--152.
 
+\bibitem[Bazylinski et~al., 1995]{Bazylinski}
+Bazylinski, D.~A., Frankel, R.~B., Heywood, B.~R., Mann, S., winh, J.~W.,
+  Donaghay, P.~L., and Hanson, A.~K. (1995).
+\newblock Controlled biomineralization of magnetite (fe$_3$o$_4$) and greigite
+  (fe$_3$s$_4$) in a magnetotactic bacterium.
+\newblock {\em Applied and Environmental Microbiology}, 61(9):3232--3239.
+
 \bibitem[Brown, 1963]{BrownMM}
 Brown, W.~F. (1963).
 \newblock {\em Micromagnetics}.
 \newblock Interscience, New York.
+
+\bibitem[Brunotte et~al., 1992]{Brunotte}
+Brunotte, X., Meunier, G., and Imhoff, J.~F. (1992).
+\newblock Finite element modeling of unbounded problems using transformations:
+  a rigorous, powerful and easy solution.
+\newblock {\em IEEE Transactions on Magnetics}, 28(2):1663--1666.
 
 \bibitem[Chang et~al., 2008]{Chang}
 Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., and Muxworthy, A.~R.
@@ -24,6 +37,13 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., and Muxworthy, A.~R.
 \newblock Fundamental magnetic parameters from pure synthetic greigite
   ({F}e$_3${S}$_4$).
 \newblock {\em J. Geophys. Res.}, 113(B06104).
+
+\bibitem[Costanzo-{\'A}lvarez et~al., 2012]{Costanzo2}
+Costanzo-{\'A}lvarez, V., Aldana, M., Bayona, G., L{\'o}pez-Rodr{\'i}guez, D.,
+  and Blanco, J.~M. (2012).
+\newblock Rock magnetic characterization of early and late diagenesis in a
+  stratigraphic well from the {L}lanos foreland basin ({E}aster {C}olombia).
+\newblock {\em Geological Society, London, Special Publications}, 371:199--216.
 
 \bibitem[Costanzo-Alvarez et~al., 2006]{Costanzo}
 Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., Bayona, G., and Ayala, C.
@@ -128,6 +148,12 @@ Liu, Q. and Liu, S. (1999).
   magnetic detection of oil and gas accumulations.
 \newblock {\em Chin. Sci. Bull.}, 4(2):174--177.
 
+\bibitem[Logg et~al., 2012]{Fenics}
+Logg, A., Mardal, K.-A., and Wells, G.~N. (2012).
+\newblock {\em Automated Solutions of Differential Equations by the Finite
+  Element Method}.
+\newblock Springer, Berlin.
+
 \bibitem[Machel and Burton, 1991]{Machel}
 Machel, H.~G. and Burton, E.~A. (1991).
 \newblock Chemical and microbial processes causing anomalous magnetization in
@@ -146,6 +172,12 @@ Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., chang, L., and
 \newblock Critical single domain grain sizes in chains of interacting greigite
   particles: {I}mplications for magnetosome crystals.
 \newblock {\em Geochem. Geophys. Geosyst.}, 14(2):5430--5441.
+
+\bibitem[Nagy et~al., 2014]{micromag}
+Nagy, L., {{\'O} Conbhu{\'i}}, P., Williams, W., Mitchell, L., and
+  Valdez-Grijalva, M. (2014).
+\newblock micromag.
+\newblock http://bitbucket.org/lesnagy/micromag.
 
 \bibitem[Reynolds et~al., 1993]{Reynolds}
 Reynolds, R.~L., Goldhaber, M.~B., and Tuttle, M.~L. (1993).

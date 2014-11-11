@@ -1,14 +1,14 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Motivation and Objectives}{1}
-\contentsline {chapter}{\numberline {2}Background theory}{4}
-\contentsline {section}{\numberline {2.1}Magnetism and matter}{4}
-\contentsline {subsection}{\numberline {2.1.1}Fundamentals of magnetism}{4}
-\contentsline {subsection}{\numberline {2.1.2}Diamagnetism and paramagnetism}{6}
-\contentsline {subsection}{\numberline {2.1.3}Ferromagnetism}{7}
-\contentsline {subsection}{\numberline {2.1.4}Magnetic Gibbs free energy}{8}
-\contentsline {subsection}{\numberline {2.1.5}The Landau-Lifshitz-Gilbert equation}{11}
-\contentsline {subsection}{\numberline {2.1.6}Micromagnetic modelling}{11}
-\contentsline {chapter}{\numberline {3}Results}{14}
-\contentsline {chapter}{\numberline {4}Plan}{15}
-\contentsline {chapter}{Bibliography}{15}
+\contentsline {chapter}{\numberline {2}Background theory}{5}
+\contentsline {section}{\numberline {2.1}Magnetism and matter}{5}
+\contentsline {subsection}{\numberline {2.1.1}Fundamentals of magnetism}{5}
+\contentsline {subsection}{\numberline {2.1.2}Diamagnetism and paramagnetism}{7}
+\contentsline {subsection}{\numberline {2.1.3}Ferromagnetism}{8}
+\contentsline {subsection}{\numberline {2.1.4}Magnetic Gibbs free energy}{9}
+\contentsline {subsection}{\numberline {2.1.5}The Landau-Lifshitz-Gilbert equation}{12}
+\contentsline {subsection}{\numberline {2.1.6}Micromagnetic modelling}{12}
+\contentsline {chapter}{\numberline {3}Results}{15}
+\contentsline {chapter}{\numberline {4}Plan}{27}
+\contentsline {chapter}{Bibliography}{27}

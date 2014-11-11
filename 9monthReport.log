@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.26)  7 NOV 2014 20:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.26)  11 NOV 2014 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -120,10 +120,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-\@input{thesis.preamble.aux}
-\openout2 = `thesis.preamble.aux'.
-
-(./thesis.preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -152,6 +148,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
+\@input{thesis.preamble.aux}
+\openout2 = `thesis.preamble.aux'.
+
+(./thesis.preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks21
@@ -172,18 +172,18 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ) (./9monthReport.aux)
 \openout1 = `9monthReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -276,7 +276,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \vbox (10.87895pt too high) detected at line 21
+Overfull \vbox (10.87895pt too high) detected at line 23
  []
 
 [1
@@ -287,7 +287,7 @@ Overfull \vbox (10.87895pt too high) detected at line 21
 
 ]
 (./abstract/abstract.tex)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -302,56 +302,290 @@ Chapter 1.
 [1
 
 
-] [2]) (./background/background.tex [3]
-Chapter 2.
-[4
+]
+Package epstopdf Info: Source file: <./figures/fram.eps>
+(epstopdf)                    date: 2014-11-11 22:07:10
+(epstopdf)                    size: 709855 bytes
+(epstopdf)             Output file: <./figures/fram-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-11 22:09:56
+(epstopdf)                    size: 224276 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/fram-eps-convert
+ed-to.pdf ./figures/fram.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+ <./figures/fram-eps-converted-to.pdf, id=22, 333.245pt x 434.62375pt>
+File: ./figures/fram-eps-converted-to.pdf Graphic file (type pdf)
 
-] [5] [6] [7] [8] [9]
+<use ./figures/fram-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/fram-eps-converted-to.pdf used on input line
+ 15.
+(pdftex.def)             Requested size: 333.24417pt x 434.62268pt.
+) (./background/background.tex
+[2] [3] [4 <./figures/fram-eps-converted-to.pdf>]
+Chapter 2.
+[5
+
+] [6] [7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11]
+ [11]
+[12]
 Underfull \vbox (badness 7907) has occurred while \output is active []
 
- [12])
-(./conclusion/conclusion.tex [13]
+ [13])
+(./results/results.tex [14]
 Chapter 3.
-) (./plan/plan.tex [14
+Package epstopdf Info: Source file: <./figures/s_octa_g_mesh.eps>
+(epstopdf)                    date: 2014-11-11 19:14:55
+(epstopdf)                    size: 8761407 bytes
+(epstopdf)             Output file: <./figures/s_octa_g_mesh-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-11-11 19:29:08
+(epstopdf)                    size: 869466 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/s_octa_g_mesh-ep
+s-converted-to.pdf ./figures/s_octa_g_mesh.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/s_octa_g_mesh-eps-converted-to.pdf, id=78, 1491.5725pt x 985.6825pt>
+File: ./figures/s_octa_g_mesh-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/s_octa_g_mesh-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/s_octa_g_mesh-eps-converted-to.pdf used on i
+nput line 13.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/c_octa_g_mesh.eps>
+(epstopdf)                    date: 2014-11-11 19:20:42
+(epstopdf)                    size: 8761417 bytes
+(epstopdf)             Output file: <./figures/c_octa_g_mesh-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-11-11 19:30:57
+(epstopdf)                    size: 783670 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/c_octa_g_mesh-ep
+s-converted-to.pdf ./figures/c_octa_g_mesh.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/c_octa_g_mesh-eps-converted-to.pdf, id=79, 1491.5725pt x 985.6825pt>
+File: ./figures/c_octa_g_mesh-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/c_octa_g_mesh-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/c_octa_g_mesh-eps-converted-to.pdf used on i
+nput line 19.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+ [15
 
 ]
+Package epstopdf Info: Source file: <./figures/s_octa_g.eps>
+(epstopdf)                    date: 2014-11-10 15:22:14
+(epstopdf)                    size: 8761406 bytes
+(epstopdf)             Output file: <./figures/s_octa_g-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-11 20:15:04
+(epstopdf)                    size: 653043 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/s_octa_g-eps-con
+verted-to.pdf ./figures/s_octa_g.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/s_octa_g-eps-converted-to.pdf, id=84, 1491.5725pt x 985.6825pt>
+File: ./figures/s_octa_g-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figures/s_octa_g-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/s_octa_g-eps-converted-to.pdf used on input 
+line 27.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/s_octa_g_tube.eps>
+(epstopdf)                    date: 2014-11-10 17:58:29
+(epstopdf)                    size: 8761416 bytes
+(epstopdf)             Output file: <./figures/s_octa_g_tube-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-11-11 20:15:06
+(epstopdf)                    size: 313007 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/s_octa_g_tube-ep
+s-converted-to.pdf ./figures/s_octa_g_tube.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/s_octa_g_tube-eps-converted-to.pdf, id=85, 1491.5725pt x 985.6825pt>
+File: ./figures/s_octa_g_tube-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/s_octa_g_tube-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/s_octa_g_tube-eps-converted-to.pdf used on i
+nput line 33.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/cube_octag.eps>
+(epstopdf)                    date: 2014-11-10 18:53:47
+(epstopdf)                    size: 8761396 bytes
+(epstopdf)             Output file: <./figures/cube_octag-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2014-11-11 20:15:09
+(epstopdf)                    size: 926728 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/cube_octag-eps-c
+onverted-to.pdf ./figures/cube_octag.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/cube_octag-eps-converted-to.pdf, id=86, 1491.5725pt x 985.6825pt>
+File: ./figures/cube_octag-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figures/cube_octag-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/cube_octag-eps-converted-to.pdf used on inpu
+t line 39.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/cube_octag_tube.eps>
+(epstopdf)                    date: 2014-11-10 18:57:40
+(epstopdf)                    size: 8761406 bytes
+(epstopdf)             Output file: <./figures/cube_octag_tube-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-11-11 20:15:12
+(epstopdf)                    size: 454511 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/cube_octag_tube-
+eps-converted-to.pdf ./figures/cube_octag_tube.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/cube_octag_tube-eps-converted-to.pdf, id=87, 1491.5725pt x 985.6825p
+t>
+File: ./figures/cube_octag_tube-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./figures/cube_octag_tube-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/cube_octag_tube-eps-converted-to.pdf used on
+ input line 45.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/c_octa_g.eps>
+(epstopdf)                    date: 2014-11-11 18:46:20
+(epstopdf)                    size: 8761415 bytes
+(epstopdf)             Output file: <./figures/c_octa_g-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-11 20:15:14
+(epstopdf)                    size: 710520 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/c_octa_g-eps-con
+verted-to.pdf ./figures/c_octa_g.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/c_octa_g-eps-converted-to.pdf, id=88, 1491.5725pt x 985.6825pt>
+File: ./figures/c_octa_g-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figures/c_octa_g-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/c_octa_g-eps-converted-to.pdf used on input 
+line 51.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+Package epstopdf Info: Source file: <./figures/c_octa_g_tube.eps>
+(epstopdf)                    date: 2014-11-11 19:04:10
+(epstopdf)                    size: 8761425 bytes
+(epstopdf)             Output file: <./figures/c_octa_g_tube-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-11-11 20:15:17
+(epstopdf)                    size: 375379 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/c_octa_g_tube-ep
+s-converted-to.pdf ./figures/c_octa_g_tube.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/c_octa_g_tube-eps-converted-to.pdf, id=89, 1491.5725pt x 985.6825pt>
+File: ./figures/c_octa_g_tube-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/c_octa_g_tube-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/c_octa_g_tube-eps-converted-to.pdf used on i
+nput line 57.
+(pdftex.def)             Requested size: 483.69687pt x 319.63612pt.
+ [16 <./figures/s_octa_g_mesh-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/B-M_30nm_looped_easy.eps>
+(epstopdf)                    date: 2014-09-17 11:00:30
+(epstopdf)                    size: 24551 bytes
+(epstopdf)             Output file: <./figures/B-M_30nm_looped_easy-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-11-11 21:22:12
+(epstopdf)                    size: 10884 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/B-M_30nm_looped_
+easy-eps-converted-to.pdf ./figures/B-M_30nm_looped_easy.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/B-M_30nm_looped_easy-eps-converted-to.pdf, id=96, 361.35pt x 252.945
+pt>
+File: ./figures/B-M_30nm_looped_easy-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./figures/B-M_30nm_looped_easy-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/B-M_30nm_looped_easy-eps-converted-to.pdf us
+ed on input line 65.
+(pdftex.def)             Requested size: 483.69687pt x 338.58945pt.
+Package epstopdf Info: Source file: <./figures/B-M_30nm_looped_hard.eps>
+(epstopdf)                    date: 2014-09-17 11:03:57
+(epstopdf)                    size: 24691 bytes
+(epstopdf)             Output file: <./figures/B-M_30nm_looped_hard-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-11-11 21:22:12
+(epstopdf)                    size: 11138 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/B-M_30nm_looped_
+hard-eps-converted-to.pdf ./figures/B-M_30nm_looped_hard.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/B-M_30nm_looped_hard-eps-converted-to.pdf, id=97, 361.35pt x 252.945
+pt>
+File: ./figures/B-M_30nm_looped_hard-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./figures/B-M_30nm_looped_hard-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/B-M_30nm_looped_hard-eps-converted-to.pdf us
+ed on input line 71.
+(pdftex.def)             Requested size: 483.69687pt x 338.58945pt.
+Package epstopdf Info: Source file: <./figures/B-M_30nm_looped_middle.eps>
+(epstopdf)                    date: 2014-09-17 11:01:17
+(epstopdf)                    size: 24635 bytes
+(epstopdf)             Output file: <./figures/B-M_30nm_looped_middle-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2014-11-11 21:22:12
+(epstopdf)                    size: 10876 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/B-M_30nm_looped_
+middle-eps-converted-to.pdf ./figures/B-M_30nm_looped_middle.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/B-M_30nm_looped_middle-eps-converted-to.pdf, id=98, 361.35pt x 252.9
+45pt>
+File: ./figures/B-M_30nm_looped_middle-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use ./figures/B-M_30nm_looped_middle-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/B-M_30nm_looped_middle-eps-converted-to.pdf 
+used on input line 77.
+(pdftex.def)             Requested size: 483.69687pt x 338.58945pt.
+)
+(./plan/plan.tex [17 <./figures/c_octa_g_mesh-eps-converted-to.pdf>] [18 <./fig
+ures/s_octa_g-eps-converted-to.pdf>] [19 <./figures/s_octa_g_tube-eps-converted
+-to.pdf>] [20 <./figures/cube_octag-eps-converted-to.pdf>] [21 <./figures/cube_
+octag_tube-eps-converted-to.pdf>] [22 <./figures/c_octa_g-eps-converted-to.pdf>
+] [23 <./figures/c_octa_g_tube-eps-converted-to.pdf>] [24 <./figures/B-M_30nm_l
+ooped_easy-eps-converted-to.pdf>] [25 <./figures/B-M_30nm_looped_hard-eps-conve
+rted-to.pdf>] [26 <./figures/B-M_30nm_looped_middle-eps-converted-to.pdf>]
 Chapter 4.
-) (./9monthReport.bbl [15
+) (./9monthReport.bbl [27
 
-] [16
+] [28
 
-] [17] [18]) [19] (./9monthReport.aux) ) 
+] [29] [30] [31]) [32] (./9monthReport.aux) ) 
 Here is how much of TeX's memory you used:
- 3283 strings out of 494925
- 43717 string characters out of 6178543
- 114523 words of memory out of 5000000
- 6423 multiletter control sequences out of 15000+600000
+ 3373 strings out of 494925
+ 46598 string characters out of 6178543
+ 114850 words of memory out of 5000000
+ 6499 multiletter control sequences out of 15000+600000
  12419 words of font info for 45 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 37i,11n,27p,2111b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti8.pfb>
-Output written on 9monthReport.pdf (23 pages, 212548 bytes).
+ 38i,11n,27p,2111b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti8.pfb>
+Output written on 9monthReport.pdf (36 pages, 5540074 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 234 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
